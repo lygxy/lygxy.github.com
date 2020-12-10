@@ -38,7 +38,7 @@ function randomData() {
 		//backgroundColor: '#FFFFFF',
 		
 		title: {
-			text: 'base.js_001',
+			text: 'base_001',
 			textStyle:{color:'#fff'},
 			//subtext: '纯属虚构',
 			x:'center'
@@ -59,7 +59,7 @@ function randomData() {
 			color: ['#ff0', '#ffff00', '#0E94EB','#6FBCF0', '#F0F06F', '#00CC00']
 		},
 		series: [{
-			name: 'base.js_001',
+			name: 'base_001',
 			type: 'map',
 			mapType: 'china', 
 			roam: true,
@@ -115,7 +115,7 @@ option = {
     legend: {
         orient: 'vertical',
         left: 'left',
-        data: ['base.js_002','base.js_003','base.js_004','base.js_005','base.js_006'],
+        data: ['base_002','base_003','base_004','base_005','base_006'],
         textStyle: {color: '#fff'}
     },
     
@@ -128,16 +128,16 @@ option = {
 	},
     series : [
         {
-            name: 'base.js_007',
+            name: 'base_007',
             type: 'pie',
             radius : '55%',
             center: ['50%', '60%'],
             data:[
-                {value:335, name:'base.js_002'},
-                {value:310, name:'base.js_003'},
-                {value:234, name:'base.js_004'},
-                {value:135, name:'base.js_005'},
-                {value:1548, name:'base.js_006'}
+                {value:335, name:'base_002'},
+                {value:310, name:'base_003'},
+                {value:234, name:'base_004'},
+                {value:135, name:'base_005'},
+                {value:1548, name:'base_006'}
             ],
           
             itemStyle: {
@@ -174,7 +174,7 @@ option = {
     },
     series: [
         {
-            name:'base.js_008',
+            name:'base_008',
             type:'pie',
             radius: ['30%', '55%'],
             avoidLabelOverlap: false,
